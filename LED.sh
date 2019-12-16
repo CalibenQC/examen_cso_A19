@@ -16,7 +16,7 @@ while :
 do
 if [ $(cat /sys/class/gpio/gpio233/value) -eq 0 ];
 	then 
-		if [ $(cat /sys/class/gpio/gpio233/value) -eq 0 ]
+		if [ $(cat /sys/class/gpio/gpio71/value) -eq 0 ]
 		then
 			echo "1" > /sys/class/gpio/gpio71/value
 		else
